@@ -80,6 +80,51 @@ const parOuImpar = (n) => {
     console.log("Impar");
   };
   
-  parOuImpar(5);
-  parOuImpar(6);
-  
+parOuImpar(5);
+parOuImpar(6);
+
+
+const raizQuadrada = (x) => {
+  return x * x;
+};
+
+
+console.log(raizQuadrada(4));
+
+const raizQuadrada2 = (x) => x * x 
+
+console.log(raizQuadrada(5));
+console.log(raizQuadrada(12));
+
+
+const hellorWord = () => console.log("Hello word");
+
+hellorWord();
+
+
+// 7 - Parametro opcional 
+
+const multiplication = function (m, n) {
+  if (m === undefined) {
+    return m * 2 ;
+  }else {
+    return m * n;
+  }
+}
+
+console.log(multiplication(5))
+
+console.log(multiplication(2,4))
+
+
+const greeting = (name) => {
+  if (!name) {
+    console.log("Olá!");
+    return;
+  }
+
+  console.log(`Olá ${name}!`);
+};
+
+greeting();
+greeting("Davi");
