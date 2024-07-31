@@ -214,3 +214,14 @@ const num = 6;
 const result = factorial(num);
 
 console.log(`O fatorial do número ${num} é ${result}`);
+
+
+const testeFuncion = (m) => {
+  if (m === 10) {
+    return m * m;
+  }else {
+    return console.log("Outro valor")
+  }
+}
+
+console.log(testeFuncion(10)); 
