@@ -87,3 +87,24 @@ console.log(obj2);
 console.log(Object.keys(obj));
 console.log(Object.keys(obj2));
 console.log(Object.keys(car));
+
+// 9 - Mutação
+const a = {
+    name: "Matheus",
+};
+  
+const b = a;
+  
+console.log(a);
+console.log(b);
+  
+console.log(a === b);
+  
+a.age = 31;
+  
+console.log(b);
+  
+delete b.age;
+  
+console.log(a);
+console.log(b);
