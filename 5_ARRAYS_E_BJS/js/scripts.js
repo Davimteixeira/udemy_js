@@ -24,3 +24,45 @@ console.log(numbers['length']);
 const myName = "David";
 console.log(myName.length)
 
+// 4 - métodos
+const otherNumbers = [1, 2, 3]
+
+const allNumbers = numbers.concat(otherNumbers)
+
+console.log(allNumbers)
+
+
+const text = "algo"
+
+console.log(text.toUpperCase());
+console.log(text.indexOf("g"))
+
+// 5 - obejetos
+
+const person = {
+    name: "davi",
+    age: 31,
+    job: "programador"
+}
+
+console.log(person.name.length)
+console.log(person.name)
+console.log(typeof person)
+
+// 6 - criando e deletando propriedades
+const car = {
+    engine: 2.0,
+    brand: "VW",
+    model: "Tiguan",
+    km: 20000,
+};
+  
+console.log(car);
+  
+car.doors = 4;
+  
+console.log(car);
+  
+delete car.km;
+  
+console.log(car);
