@@ -108,3 +108,4 @@ delete b.age;
   
 console.log(a);
 console.log(b);
+console.log(b)
