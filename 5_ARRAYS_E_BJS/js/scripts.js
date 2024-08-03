@@ -238,3 +238,7 @@ console.log(trimTest);
 console.log(trimTest.trim().length);
 
 console.log(trimTest.length);
+
+const final = trimTest.trim();
+
+console.log(final)
