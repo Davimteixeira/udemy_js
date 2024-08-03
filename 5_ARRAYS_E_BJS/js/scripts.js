@@ -124,3 +124,15 @@ const carrosMarcas = ["Fiat", "Audi", "Bentley", "BMW Motorrad"]
 for (let i = 0; i < carrosMarcas.length; i++) {
     console.log(`Listando o carros: ${carrosMarcas[i]}`)
 } 
+
+
+// 11 - push e pop 
+const array = ["a", "b", "c"];
+
+array.push("D")
+
+console.log(array.length)
+
+array.pop();
+
+console.log(array)
