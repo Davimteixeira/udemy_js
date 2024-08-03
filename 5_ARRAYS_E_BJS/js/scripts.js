@@ -118,3 +118,9 @@ const users = ["Matheus", "João", "pedro"]
 for (let i =0; i < users.length; i++) {
     console.log(`Listando o ususario: ${users[i]}`)
 }
+
+const carrosMarcas = ["Fiat", "Audi", "Bentley", "BMW Motorrad"]
+
+for (let i = 0; i < carrosMarcas.length; i++) {
+    console.log(`Listando o carros: ${carrosMarcas[i]}`)
+} 
