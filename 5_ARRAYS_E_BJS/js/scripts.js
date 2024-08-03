@@ -136,3 +136,7 @@ console.log(array.length)
 array.pop();
 
 console.log(array)
+
+array.push("Dá", "Para", "Inserir", "Vários");
+
+console.log(array);
