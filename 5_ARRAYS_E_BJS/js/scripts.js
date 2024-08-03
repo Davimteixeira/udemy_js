@@ -256,3 +256,12 @@ console.log(newNumber);
 const testePadEnd = newNumber.padEnd(10, "0");
 
 console.log(testePadEnd);
+
+// 20 - split
+const frase = "O rato roeu a roupa do rei de Roma";
+
+const arrayDaFrase = frase.split();
+const arrayDaFrase2 = frase.split(" ");
+
+console.log(arrayDaFrase2);
+console.log(arrayDaFrase);
