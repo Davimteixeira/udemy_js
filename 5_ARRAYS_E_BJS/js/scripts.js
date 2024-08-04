@@ -318,3 +318,15 @@ const userDetails = {
 const { firstName, lastName, job } = userDetails;
   
 console.log(firstName, lastName, job);
+
+// renomeando variáveis
+const { firstName: primeiroNome } = userDetails;
+
+console.log(firstName);
+
+// 26 - destructuring me arrays
+const myList = ["Avião", "Submarino", "Carro"];
+
+const [veiculoA, veiculoB, veiculoC] = myList;
+
+console.log(veiculoA, veiculoB, veiculoC);
