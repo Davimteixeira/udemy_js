@@ -265,3 +265,10 @@ const arrayDaFrase2 = frase.split(" ");
 
 console.log(arrayDaFrase2);
 console.log(arrayDaFrase);
+
+// 21 - join
+const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
+
+const fraseDeCompra = `Precisamos comprar ${itensParaComprar.join(", ")}.`;
+
+console.log(fraseDeCompra);
