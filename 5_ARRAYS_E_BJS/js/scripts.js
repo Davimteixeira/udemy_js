@@ -339,3 +339,16 @@ const myJson =
 const myObject = JSON.parse(myJson);
 
 console.log(myObject);
+
+// json invalido
+const badJson =
+  '{"name": Matheus,"age": 31, "skills": ["PHP", "JavaScript", "Python"]}';
+
+// const myBadObject = JSON.parse(badJson);
+myObject.isOpenToWork = true;
+
+const myNewJson = JSON.stringify(myObject);
+
+console.log(myNewJson);
+
+console.log(typeof myNewJson);
