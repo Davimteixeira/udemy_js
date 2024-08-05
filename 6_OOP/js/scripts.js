@@ -47,3 +47,33 @@ const arr = [];
 console.log(arr.length);
 
 console.log(Object.getPrototypeOf(arr) === Array.prototype);
+
+
+// 4 - mais sobre prototype
+const myObject = {
+    a: "b",
+};
+  
+console.log(Object.getPrototypeOf(myObject));
+  
+console.log(Object.getPrototypeOf(myObject) === Object.prototype);
+  
+const mySecondObject = Object.create(myObject);
+  
+console.log(mySecondObject);
+  
+console.log(Object.getPrototypeOf(mySecondObject) === myObject);
+
+
+// 5 - classes básicas
+const cachorro = {
+    raca: null,
+};
+  
+const pastorAlemao = Object.create(cachorro);
+  
+pastorAlemao.raca = "Pastor Alemão";
+  
+const bulldog = Object.create(cachorro);
+  
+bulldog.raca = "Bulldog";
