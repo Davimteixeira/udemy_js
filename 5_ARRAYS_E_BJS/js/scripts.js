@@ -347,7 +347,7 @@ const badJson =
 // const myBadObject = JSON.parse(badJson);
 myObject.isOpenToWork = true;
 
-const myNewJson = JSON.stringify(myObject);
+const myNewJson = JSON.stringify(myObject);// const myBadObject = JSON.parse(badJson);
 
 console.log(myNewJson);
 
