@@ -77,3 +77,45 @@ pastorAlemao.raca = "Pastor Alemão";
 const bulldog = Object.create(cachorro);
   
 bulldog.raca = "Bulldog";
+
+// 6 - funcoes como classes
+function criarCachorro(nome, raca) {
+    const cachorro = Object.create({});
+    cachorro.raca = raca;
+    cachorro.nome = nome;
+    return cachorro;
+}
+  
+const bob = criarCachorro("Bob", "Vira lata");
+  
+console.log(bob);
+  
+const jack = criarCachorro("Jack", "Poodle");
+  
+console.log(jack);
+  
+console.log(Object.getPrototypeOf(jack));
+
+
+function criarCarro(ano, marca) {
+    const carro = Object.create({});
+    carro.ano = ano;
+    carro.marca = marca;
+    return carro;
+
+}
+
+const honda = criarCarro("2023", "Honda");
+  
+console.log(honda);
+
+
+// 7 - funcoes construtoras
+function Cachorro(nome, raca) {
+    this.nome = nome;
+    this.raca = raca;
+  }
+  
+const husky = new Cachorro("Ozzy", "Husky");
+  
+console.log(husky);
