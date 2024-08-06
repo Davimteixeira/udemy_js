@@ -80,6 +80,33 @@ if (x != 11) {
 // 6 - try catch
 try {
     const soma = x + y;
-  } catch (error) {
+} catch (error) {
     console.log(`Erro no programa: ${error}`);
-  }
+}
+
+// 7 - finally
+
+try {
+    const value = checkNumber("asd");
+  
+    if (!value) {
+      throw new Error("Valores inválidos!");
+    }
+} catch (error) {
+    console.log(`Opa, aconteceu um problema: ${error}`);
+} finally {
+    console.log("O Código foi executado!");
+}
+  
+// 8 - assertion
+function checkArray(arr) {
+    if (arr.length === 0) {
+      throw new Error("O array precisa ter elementos!");
+    } else {
+      console.log(`O array tem ${arr.length} elementos!`);
+    }
+}
+  
+// checkArray([]);
+  
+checkArray([1, 2, 3]);
