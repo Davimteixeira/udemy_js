@@ -64,3 +64,14 @@ h3.appendChild(myText);
 
 mainContainer.appendChild(h3);
 
+// 10 - trabalhando com atributos
+const firstLink = navLinks.querySelector("a");
+
+console.log(firstLink);
+
+firstLink.setAttribute("href", "https://horadecodar.com.br");
+
+console.log(firstLink.getAttribute("href"));
+
+firstLink.setAttribute("target", "_blank");
+
