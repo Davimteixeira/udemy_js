@@ -47,3 +47,20 @@ const navLinks = document.querySelector("nav ul");
 const li = document.createElement("li");
 
 navLinks.appendChild(li);
+
+// 8 - replaceChild
+const h2 = document.createElement("h2");
+
+h2.textContent = "Meu novo título!";
+
+header.replaceChild(h2, title);
+
+// 9 - createTextNode
+const myText = document.createTextNode("Agora vamos colocar mais um título");
+
+const h3 = document.createElement("h3");
+
+h3.appendChild(myText);
+
+mainContainer.appendChild(h3);
+
