@@ -19,3 +19,8 @@ console.log(listItens);
 const title = document.getElementById("title");
 
 console.log(title);
+
+// 4 - selecionando elementos por classe
+const products = document.getElementsByClassName("product");
+
+console.log(products);
