@@ -15,5 +15,7 @@ const listItens = document.getElementsByTagName("li");
 
 console.log(listItens);
 
+// 3 - selecionando elemento por id
+const title = document.getElementById("title");
 
-// 3 - Selecionar elementos por ID
+console.log(title);
