@@ -86,3 +86,19 @@ console.log(footer.clientWidth);
 
 console.log(footer.clientHeight);
 
+
+// 12 - posicao do elemento
+const product1 = products[0];
+
+console.log(product1.getBoundingClientRect());
+
+// 13 - CSS com JS
+
+mainContainer.style.color = "red";
+mainContainer.style.backgroundColor = "#333";
+mainContainer.style.paddingBottom = "15px";
+
+// 14 - Alterando estilos de varios elementoss
+for (const li of listItens) {
+  li.style.backgroundColor = "red";
+}
