@@ -28,7 +28,7 @@ const title = document.querySelector("#my-title");
 
 title.addEventListener("click", (e) => {
   console.log(e);
-  console.log(e.srcElement);
+  console.log(e.target);
   console.log(e.offsetX);
   console.log(e.pointerType);
 });
