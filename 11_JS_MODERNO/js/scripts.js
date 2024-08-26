@@ -65,5 +65,5 @@ const user = {
   },
 };
 
-// user.sayUserName()
-// user.sayUserNameArrow()
+user.sayUserName()
+user.sayUserNameArrow()
